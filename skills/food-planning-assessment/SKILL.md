@@ -1,13 +1,13 @@
 ---
 name: food-planning-assessment
-description: Use when the user asks to evaluate, score, or critique a food plan, banquet proposal, menu design, themed dining event, or any culinary planning document. Applies a multi-master evaluation framework drawing on Yuan Mei (随园食单), Li Yu (闲情偶寄), Brillat-Savarin (味觉生理学), the Michelin criteria, and Ruth Reichl's philosophy to produce a structured, defensible scorecard with tasteful rationale.
+description: Use when the user asks to evaluate, score, or critique a food plan, banquet proposal, menu design, themed dining event, or any culinary planning document. Applies a multi-master evaluation framework drawing on Yuan Mei (随园食单), Li Yu (闲情偶寄), Brillat-Savarin (味觉生理学), the Michelin criteria, Ruth Reichl's philosophy, Michael Pollan's whole-food principles, and the Chinese Dietary Guidelines 2022 to produce a structured, defensible scorecard covering taste, culture, craft, and nutritional balance.
 ---
 
 # 美食策划评鉴技能 · Food Planning Assessment
 
 评估一份美食策划案，绝不是简单地打分。它需要你同时扮演食客、美食家与文化观察者——既要问「好不好吃」，更要问「为什么好吃」，以及「它是否尊重了食物本身的灵魂」。
 
-本技能以古今东西方六位美食权威的思想为评鉴支柱，对策划案进行六个维度的系统审查。
+本技能以古今东西方八位美食与营养权威的思想为评鉴支柱，对策划案进行七个维度的系统审查。
 
 ---
 
@@ -45,6 +45,20 @@ description: Use when the user asks to evaluate, score, or critique a food plan,
 4. **菜品的个性与灵魂**（Personality of the Cuisine）
 5. **稳定性与一致性**（Consistency）
 
+### Michael Pollan（1955–）· 《为食物辩护》（*In Defense of Food*, 2008）
+从食物文化与公共健康视角审视饮食的当代思想家。核心主张：
+- **"Eat food. Not too much. Mostly plants."**（吃食物，不要太多，以植物为主）——以七个字穿透了现代营养学的迷雾
+- **反对「营养主义」（Nutritionism）**：不要用营养素分解的眼光看待食物，要看整体的真实食物模式。一份富含天然全食材的策划，胜过一份靠加工食品凑齐营养指标的策划
+- **外祖母原则**：如果你的外祖母不认识货架上的某种成分，那它大概率不该出现在一份好的美食策划里
+- 饮食既是个人健康的选择，也是对土地、生产者和生态系统的道德表态
+
+### 中国居民膳食指南（2022）· 中国营养学会
+中国官方权威营养科学标准，为评鉴膳食营养结构提供量化基准：
+- **核心准则：食物多样，合理搭配**——每日≥12种食物，每周≥25种；覆盖谷薯、蔬果、动物性、豆奶、坚果五大类
+- **限量红线**：盐<5g/日，烹调油25–30g/日，添加糖<50g/日
+- **膳食宝塔**（五层）：谷薯类→蔬菜水果→动物性食物→乳类大豆坚果→油盐糖（由多至少）
+- **「东方健康膳食模式」**：浙沪闽粤饮食模式——蔬菜水果丰富、常吃水产品、豆奶充足、清淡少盐，与低心血管疾病发病率显著相关，是本技能的正向参照模式
+
 ### Ruth Reichl（1948–）· 《纽约时报》首席餐饮评论家
 将饮食评论从消费指南提升为文化批评的当代代表：
 - **文化真实性至上**：「如果你要评论日本料理或秘鲁菜，你必须真正去过那些国家，深入研究那里的食物应该是什么样的」
@@ -70,9 +84,19 @@ description: Use when the user asks to evaluate, score, or critique a food plan,
 
 ---
 
-### 第二步：六维评鉴
+### 第二步：七维评鉴
 
-对以下六个维度逐一评分，每项满分10分，权重各异。
+对以下七个维度逐一评分，每项满分10分，权重各异。
+
+> **「膳食营养 · 健康之道」维度的权重请根据策划类型动态调整：**
+>
+> | 策划类型 | 营养维度推荐权重 |
+> |---|---|
+> | 日常健康食谱 / 康养餐饮 | 3.5 |
+> | 商务宴请 / 主题品鉴 | 2.0 |
+> | 节庆宴席 / 一次性活动 | 1.5 |
+> | 医疗膳食 / 特殊人群 | 4.0 |
+> | **通用默认** | **2.5** |
 
 ---
 
@@ -160,6 +184,23 @@ description: Use when the user asks to evaluate, score, or critique a food plan,
 
 ---
 
+#### 维度七：膳食营养 · 健康之道  （默认权重 2.5，可调整）
+*主要参照：中国居民膳食指南（2022）量化标准、Michael Pollan「全食物原则」*
+
+营养不是美食的对立面，而是好策划的隐形基础。最高境界是：让宾客在享受味觉盛宴的同时，身体也得到善待。
+
+> **Pollan 原则**：不要用营养素数学来打分。一份天然全食材构成、宏量营养素稍有失衡的策划，营养分数应高于一份靠加工食品凑齐指标的策划。「吃食物」永远排在「吃营养素」之前。
+
+| 评鉴标准 | 说明 |
+|---|---|
+| 食物多样性 | 策划是否覆盖谷薯、蔬果、动物性食物、豆奶、坚果五大类？日均品种是否≥12种？（膳食指南核心标准） |
+| 三大营养素结构 | 碳水化合物、蛋白质、脂肪的大致比例是否均衡？是否存在某类营养素过度集中（如高蛋白宴席缺乏全谷物与蔬菜）？ |
+| 微量营养素与膳食纤维 | 食材组合能否提供充足的维生素、矿物质和膳食纤维？深色蔬菜、全谷物、豆类是否有足够比重？ |
+| 低盐低糖控油 | 烹饪方式和调味习惯是否体现健康意识？重油重盐的菜品是否有合理比例控制？（参照：盐<5g/日、油25–30g/日标准） |
+| 受众营养适配 | 是否针对目标受众的特殊需求（老人减盐补钙、儿童补铁补锌、孕妇增叶酸、运动员高蛋白、减重者控热量）做出针对性调整？ |
+
+---
+
 ### 第三步：计算加权总分
 
 ```
@@ -168,8 +209,8 @@ description: Use when the user asks to evaluate, score, or critique a food plan,
 最终展示 = 总分 × 10                             # 还原到 0–10 分制
 ```
 
-各维度权重汇总：
-| 维度 | 权重 |
+各维度默认权重汇总：
+| 维度 | 默认权重 |
 |---|---|
 | 食材哲学 · 物性之道 | 3.0 |
 | 口味结构 · 和谐之道 | 3.0 |
@@ -177,7 +218,8 @@ description: Use when the user asks to evaluate, score, or critique a food plan,
 | 烹饪技艺 · 匠心之道 | 2.5 |
 | 宾客体验 · 宾主之道 | 2.0 |
 | 可行落地 · 现实之道 | 1.5 |
-| **合计** | **14.5** |
+| 膳食营养 · 健康之道 | 2.5 |
+| **合计** | **17.0** |
 
 ---
 
@@ -204,7 +246,27 @@ description: Use when the user asks to evaluate, score, or critique a food plan,
 ### 二、口味结构 · 和谐之道  （权重 3.0）  得分：X.X / 10
 ...（同上格式）
 
-[其余维度类推]
+### 三、主题意境 · 文化之道  （权重 2.5）  得分：X.X / 10
+...
+
+### 四、烹饪技艺 · 匠心之道  （权重 2.5）  得分：X.X / 10
+...
+
+### 五、宾客体验 · 宾主之道  （权重 2.0）  得分：X.X / 10
+...
+
+### 六、可行落地 · 现实之道  （权重 1.5）  得分：X.X / 10
+...
+
+### 七、膳食营养 · 健康之道  （权重 X.X）  得分：X.X / 10
+
+▸ 食物多样性           ████████░░  8/10  — 理由一句话。
+▸ 三大营养素结构       ███████░░░  7/10  — 理由一句话。
+▸ 微量营养素与膳食纤维 ██████░░░░  6/10  — 理由一句话。
+▸ 低盐低糖控油         █████████░  9/10  — 理由一句话。
+▸ 受众营养适配         ████████░░  8/10  — 理由一句话。
+
+*维度小结：2–3句话综合评价，说明策划在营养结构上的整体取向，指出是否遵循全食物原则，有无明显营养盲区。*
 
 ---
 
@@ -248,6 +310,8 @@ description: Use when the user asks to evaluate, score, or critique a food plan,
 4. **文化理解是不可妥协的底线**——引用 Ruth Reichl 的标准：评论一道你不熟悉的菜系前，必须先承认自己知识的边界，并用「（置信度：中）」或「（置信度：低）」标注相应标准的评分。
 
 5. **永远不要因为「太主观」而拒绝给出评价**——主观性不是逃避判断的理由，而是让你的推理过程更加透明的要求。
+
+6. **不要用营养素数学代替对真实食物的判断**（Michael Pollan 的核心警示）——宏量营养素比例完美、却大量依赖加工食品或营养补剂的策划，其营养维度分数应低于食材天然、整体配比稍有缺陷的策划。「吃食物」始终优先于「吃营养素」。若策划中出现大量超加工成分（人工添加剂、代餐粉、合成香料主导），应在「食物多样性」标准项下如实扣分并注明原因。
 
 ---
 
